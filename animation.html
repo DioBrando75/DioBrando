@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .movingBox {
+            background-color: red;
+            animation: guidegBox 5s linear alternate;
+        }
+
+        @keyframes guidegBox {
+            0% {
+                background-color: red;
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                transform: rotate(1800deg);
+            }
+
+            20% {
+                background-color: green;
+                width: 200px;
+                height: 200px;
+                border-radius: 40%;
+                transform: rotateZ();
+            }
+
+            40% {
+                background-color: blue;
+                width: 200px;
+                height: 200px;
+                border-radius: 30%;
+            }
+
+            60% {
+                background-color: pink;
+                width: 200px;
+                height: 200px;
+                border-radius: 20%
+            }
+
+            80% {
+                background-color: black;
+                width: 200px;
+                height: 200px;
+                border-radius: 10%;
+            }
+
+            100% {
+                background-color: purple;
+                width: 200px;
+                height: 200px;
+                border-radius: 0%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="movingBox"></div>
+</body>
+
+</html>

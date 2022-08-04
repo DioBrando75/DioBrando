@@ -1,0 +1,62 @@
+.button{
+   width: 60px;
+   height: 30px;
+   border: 1px;
+   background-color: brown;
+   color: white;
+}
+.img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.search{
+    position: absolute; top: 1px;
+    left: 550px; font-size:xx-large;
+}
+.catfood{
+    position: absolute; top: 0px;
+    left: 700px; font-size: 50px;
+}
+.price{
+    color: brown; position: absolute;
+    top: 100px; left: 700px; font-size: 20px;
+}
+.text{
+    width: 400px; position: absolute; top: 200px;
+    left: 700px; 
+}
+.txt{
+    font-size: xx-large;
+    font-family: italic;
+    position: absolute; top: 600px; left: 700px;
+}
+.negKg{
+    font-size: small; position: absolute; top: 675px; left: 700px;
+    width: 70px; height: 30px;
+}
+.hoyrKg{
+    font-size: small; position: absolute; top: 675px; left: 800px;
+    width: 70px; height: 30px;
+}.hasah{
+    position: absolute ; top: 750px; left: 700px;
+    width: 30px; height: 30px;
+}.neg{
+    position: absolute ; top: 750px; left: 730px;
+    width: 30px; height: 30px;
+}.nemeh{
+    position: absolute ; top: 750px; left: 760px;
+    width: 30px; height: 30px;
+}.add{
+    position: absolute; top: 750px; left: 810px;
+    width: 120px; height: 30px; background-color: gray;
+    color: white;
+}.heart{
+    position: absolute ; top: 800px; left: 700px;
+    width: 30px; height: 30px;
+}.refresh{
+    position: absolute ; top: 800px; left: 750px;
+    width: 30px; height: 30px;
+}.button2{
+    background-color: rgb(173, 21, 155); color: white; position: absolute;
+    top: 455px; width: 240px; height: 65px; left: 210px; font-size: 30px;
+}

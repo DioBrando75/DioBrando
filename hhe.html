@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .box1 {
+        width: 40px;
+        height: 40px;
+        margin: 100px auto;
+    }
+
+    .box1 .newBox1 {
+        width: 33%;
+        height: 33%;
+        background-color: white;
+        float: left;
+        animation: newBox1 1.3s infinite ease-in-out;
+    }
+
+    .box1 .newBox11 {
+        animation-delay: 0.2s;
+    }
+
+    .box1 .newBox12 {
+        animation-delay: 0.3s;
+    }
+
+    .box1 .newBox13 {
+        animation-delay: 0.4s;
+    }
+
+    .box1 .newBox14 {
+        animation-delay: 0.1s;
+    }
+
+    .box1 .newBox15 {
+        animation-delay: 0.2s;
+    }
+
+    .box1 .newBox16 {
+        animation-delay: 0.3s;
+    }
+
+    .box1 .newBox17 {
+        animation-delay: 0s;
+    }
+
+    .box1 .newBox18 {
+        animation-delay: 0.1s;
+    }
+
+    .box1 .newBox19 {
+        animation-delay: 0.2s;
+    }
+
+    @keyframes newBox1 {
+
+        0%,
+        70%,
+        100% {
+
+            transform: scale3D(1, 1, 1);
+        }
+
+        35% {
+
+            transform: scale3D(0, 0, 1);
+        }
+    }
+
+    @keyframes newBox1 {
+
+        0%,
+        70%,
+        100% {
+            transform: scale3D(1, 1, 1);
+        }
+
+        35% {
+            transform: scale3D(0, 0, 1);
+        }
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body
+    style="background-color: rgb(53, 53, 165); display: flex; height: 100vh; align-items: center; justify-content: center;">
+    <div class="box1">
+        <div class="newBox1 newBox11"></div>
+        <div class="newBox1 newBox12"></div>
+        <div class="newBox1 newBox13"></div>
+        <div class="newBox1 newBox14"></div>
+        <div class="newBox1 newBox15"></div>
+        <div class="newBox1 newBox16"></div>
+        <div class="newBox1 newBox17"></div>
+        <div class="newBox1 newBox18"></div>
+        <div class="newBox1 newBox19"></div>
+    </div>
+</body>
+
+</html>
